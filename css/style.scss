@@ -48,6 +48,9 @@ html, body {
                 background-color: white;
                 border-top-left-radius: 8px;
                 border-top-right-radius: 8px;
+                display: flex;
+                vertical-align: center;
+                justify-content: center;
 
                 h1 {
                     color: $cyan;
@@ -71,7 +74,7 @@ html, body {
                 margin: 0;
 
                 .subscription {
-                    padding: 30px;
+                    padding: 40px;
                     max-width: 1/2*100vw;
                     width: 100%;
                     background-color: $cyan;
@@ -113,6 +116,10 @@ html, body {
                     background-color: #4abebd;
                     background-size: cover;
                     border-bottom-right-radius: 8px;
+                    display: flex;
+                    flex-direction: column;
+                    vertical-align: center;
+                    justify-content: center;
 
                     h3 {
                         font-size: $font-size;
