@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$font-stack: 'Karla', sans-serif;
+$mobile-width: 375px;
+$desktop-width: 1440px;
+$cyan: hsl(179, 62%, 43%);
+$bright-yellow: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+$font-size: 16px;
+
+html, body {
+    font-family: $font-stack;
+    font-size: $font-size;
+    height: 100%;
+    max-width: $desktop-width;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: $light-gray;
+
+    .container {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .price-component {
+            font-family: $font-stack;
+            font-size: $font-size;
+            max-width: 44.24%;
+            width: 100%;
+
+            .join-our-community {
+                padding: 40px;
+                background-color: white;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+
+                h1 {
+                    color: $cyan;
+                }
+
+                h2 {
+                    color: $bright-yellow;
+                }
+
+                p {
+                    color: $grayish-blue;
+                    font-size: $font-size;
+                    line-height: 28px;
+                }
+            }
+
+            .price {
+                display: flex;
+                color: white;
+                width: 100%;
+                margin: 0;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                .subscription {
+                    padding: 30px;
+                    max-width: 1/2*100vw;
+                    width: 100%;
+                    background-color: $cyan;
+                    background-size: cover;
+
+                    h3 {
+                        font-size: $font-size;
+                    }
+
+                    .sign-up-btn {
+                        align-items: center;
+                        padding: 16px;
+                        background-color: $bright-yellow;
+                        color: white;
+                        border-radius: 3px;
+                        border: none;
+                        font-weight: 700;
+                        width: 80%;
+                        -webkit-box-shadow: 10px 10px 18px -12px rgba(0, 0, 0, 0.4);
+                        -moz-box-shadow: 10px 10px 18px -12px rgba(0, 0, 0, 0.4);
+                        box-shadow: 10px 10px 18px -12px rgba(0, 0, 0, 0.4);
+                    }
+                }
+
+                .why-us {
+                    padding: 30px;
+                    max-width: 1/2*100vw;
+                    width: 100%;
+                    background-color: #4abebd;
+                    background-size: cover;
+
+                    h3 {
+                        font-size: $font-size;
+                    }
+
+                    ul {
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}

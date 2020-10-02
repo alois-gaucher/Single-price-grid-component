@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+html, body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  height: 100%;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #e5eff5;
+}
+html .container, body .container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html .container .price-component, body .container .price-component {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  max-width: 44.24%;
+  width: 100%;
+}
+html .container .price-component .join-our-community, body .container .price-component .join-our-community {
+  padding: 40px;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+html .container .price-component .join-our-community h1, body .container .price-component .join-our-community h1 {
+  color: #2ab2af;
+}
+html .container .price-component .join-our-community h2, body .container .price-component .join-our-community h2 {
+  color: #c0df34;
+}
+html .container .price-component .join-our-community p, body .container .price-component .join-our-community p {
+  color: #98a6bd;
+  font-size: 16px;
+  line-height: 28px;
+}
+html .container .price-component .price, body .container .price-component .price {
+  display: flex;
+  color: white;
+  width: 100%;
+  margin: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+html .container .price-component .price .subscription, body .container .price-component .price .subscription {
+  padding: 30px;
+  max-width: 50vw;
+  width: 100%;
+  background-color: #2ab2af;
+  background-size: cover;
+}
+html .container .price-component .price .subscription h3, body .container .price-component .price .subscription h3 {
+  font-size: 16px;
+}
+html .container .price-component .price .subscription .sign-up-btn, body .container .price-component .price .subscription .sign-up-btn {
+  align-items: center;
+  padding: 16px;
+  background-color: #c0df34;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-weight: 700;
+  width: 80%;
+  -webkit-box-shadow: 10px 10px 18px -12px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 10px 10px 18px -12px rgba(0, 0, 0, 0.4);
+  box-shadow: 10px 10px 18px -12px rgba(0, 0, 0, 0.4);
+}
+html .container .price-component .price .why-us, body .container .price-component .price .why-us {
+  padding: 30px;
+  max-width: 50vw;
+  width: 100%;
+  background-color: #4abebd;
+  background-size: cover;
+}
+html .container .price-component .price .why-us h3, body .container .price-component .price .why-us h3 {
+  font-size: 16px;
+}
+html .container .price-component .price .why-us ul, body .container .price-component .price .why-us ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
