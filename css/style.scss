@@ -35,7 +35,7 @@ html, body {
             max-width: 44.24%;
             width: 100%;
             display: flex;
-            flex-direction: column;
+            flex-flow: column nowrap;
 
             @media(max-width: $mobile-width) {
                 max-width: 90%;
@@ -51,6 +51,7 @@ html, body {
                 display: flex;
                 vertical-align: center;
                 justify-content: center;
+                flex-flow: column nowrap;
 
                 h1 {
                     color: $cyan;
